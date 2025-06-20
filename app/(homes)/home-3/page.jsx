@@ -11,6 +11,8 @@ import Cta from "@/components/homes/home-3/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
 import Faq from "@/components/homes/home-2/Faq";
+import Cta2 from "@/components/homes/home-4/Cta";
+import Features2 from "@/components/homes/home-6/Features";
 export const metadata = {
   title:
     "Home 3 || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
@@ -24,11 +26,18 @@ export default function HomePage3() {
         <Header2 />
         <div id="wrapper" className="wrap">
           <Hero />
+       
+        
           <Brands2 />
+            <div className="pb-5">
+               <Features2 />
+          </div>
           <Features />
           <KeyFeatures />
           <Pricing />
           <Testimonials />
+            <div className="pt-8">   <Cta2 /></div>
+       
           <div
             id="clients_brands"
             className="clients-brands section panel overflow-hidden"

@@ -23,7 +23,7 @@ export default function Nav() {
         <Link href={`/page-contact`}>Contact</Link>
       </li>
       <li className="has-dd-menu">
-        <a role="button" aria-haspopup="true">
+        {/* <a role="button" aria-haspopup="true">
           More{" "}
           <span
             data-uc-navbar-parent-icon=""
@@ -38,7 +38,7 @@ export default function Nav() {
               />
             </svg>
           </span>
-        </a>
+        </a> */}
         {/* uc-navbar-dropdown uc-drop uc-open */}
 
         <div className={`uc-navbar-dropdown uc-drop w-100`}>
