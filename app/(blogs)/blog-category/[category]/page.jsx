@@ -6,9 +6,9 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs3 from "@/components/blog/Blogs3";
 export const metadata = {
   title:
-    "Blog Category || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Category || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function BlogCategoryPage({ params }) {
   const category = params.category.split("%20").join(" ");

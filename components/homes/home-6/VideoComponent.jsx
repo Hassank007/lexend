@@ -23,11 +23,11 @@ export default function VideoComponent() {
           <div className="container xl:max-w-xl">
             <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-white dark:border-gray-700">
               <video
-                src="/assets/images/media/lexend_vid_home-6.webm"
+                src="/assets/images/media/TrackAgent.ai_vid_home-6.webm"
                 preload="none"
                 loop
                 autoPlay
-                poster="/assets/images/media/lexend_vid_home-6.jpg"
+                poster="/assets/images/media/TrackAgent.ai_vid_home-6.jpg"
                 muted
                 playsInline
                 data-uc-cover
@@ -51,7 +51,7 @@ export default function VideoComponent() {
       }
         channel="custom"
         isOpen={isOpen}
-        url="/assets/images/media/lexend_vid_home-6.webm"
+        url="/assets/images/media/TrackAgent.ai_vid_home-6.webm"
         onClose={() => setOpen(false)}
       />
     </>

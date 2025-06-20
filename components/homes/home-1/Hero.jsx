@@ -215,7 +215,7 @@ export default function Hero() {
                   <figure className="featured-image m-0 rounded ratio ratio-16x9 lg:rounded-2 overflow-hidden">
                     <Image
                       className="media-cover image"
-                      alt="Lexend"
+                      alt="TrackAgent.ai"
                       src="/assets/images/template/home-01-hero-cover.webp"
                       width="1280"
                       height="719"
@@ -249,7 +249,7 @@ export default function Hero() {
       <ModalVideo
         channel="custom"
         isOpen={isOpen}
-        url="/assets/images/media/lexend_vid.webm"
+        url="/assets/images/media/TrackAgent.ai_vid.webm"
         onClose={() => setOpen(false)}
       />
     </>

@@ -6,9 +6,9 @@ import ShopDetails1 from "@/components/shop/ShopDetails1";
 import { products } from "@/data/products";
 export const metadata = {
   title:
-    "Shop Details 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop Details 1 || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ShopDetailsPage1({ params }) {
   const id = params.id;

@@ -8,9 +8,9 @@ import Brands from "@/components/innerpages/Brands";
 import { jobListings } from "@/data/career";
 export const metadata = {
   title:
-    "Career Details || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Career Details || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function CareerDetailsPage({ params }) {
   const id = params.id;

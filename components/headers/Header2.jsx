@@ -55,22 +55,9 @@ export default function Header2() {
                   <Link
                     className="panel text-none"
                     href={`/`}
-                    style={{ width: 140 }}
+                   
                   >
-                    <Image
-                      className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-light.svg"
-                      width="117"
-                      height="40"
-                    />
-                    <Image
-                      className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-dark.svg"
-                      width="117"
-                      height="40"
-                    />
+                   <h3 className="text-sm font-bold">TrackAgent.ai</h3>
                   </Link>
                 </div>
                 <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
@@ -99,7 +86,7 @@ export default function Header2() {
                 >
                   Start free trial
                 </Link>
-                <LanguageSelect2 />
+                {/* <LanguageSelect2 /> */}
                 <a
                   className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
                   onClick={openMobileMenu}

@@ -15,9 +15,7 @@ export default function Nav() {
       <li>
         <Link href={`/page-pricing`}>Pricing</Link>
       </li>
-      <li>
-        <Link href={`/blog`}>Insights</Link>
-      </li>
+      
       <li>
         <Link href={`/page-about`}>About</Link>
       </li>
@@ -98,7 +96,7 @@ export default function Nav() {
               <div className="panel w-100 overflow-hidden">
                 <div className="ratio ratio-3x4 overflow-hidden rounded">
                   <Image
-                    alt="Let's build anything with Lexend!"
+                    alt="Let's build anything with TrackAgent.ai!"
                     src="/assets/images/template/menu-banner.jpg"
                     width="544"
                     height="660"

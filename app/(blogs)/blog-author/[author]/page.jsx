@@ -6,9 +6,9 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs4 from "@/components/blog/Blogs4";
 export const metadata = {
   title:
-    "Blog Author || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Author || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function BlogAuthorPage({ params }) {
   const author = params.author.split("%20").join(" ");

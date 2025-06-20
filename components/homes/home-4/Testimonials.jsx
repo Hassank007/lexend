@@ -108,7 +108,7 @@ export default function Testimonials() {
       <ModalVideo
         channel="custom"
         isOpen={isOpen}
-        url="/assets/images/media/lexend_vid.webm"
+        url="/assets/images/media/TrackAgent.ai_vid.webm"
         onClose={() => setOpen(false)}
       />
     </>

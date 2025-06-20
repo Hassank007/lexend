@@ -5,9 +5,9 @@ import BlogDetails2 from "@/components/blog/BlogDetails2";
 import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
-    "Blog Details 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Details 2 || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function BlogDetailsPage2({ params }) {
   const id = params.id;

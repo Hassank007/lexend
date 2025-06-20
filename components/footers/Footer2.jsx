@@ -18,7 +18,7 @@ export default function Footer2() {
                       <Link href={`/`}>
                         <Image
                           className="w-32px text-primary"
-                          alt="Lexend"
+                          alt="TrackAgent.ai"
                           src="/assets/images/common/logo-mark.svg"
                           width="34"
                           height="34"
@@ -70,7 +70,7 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lexend © 2024, All rights reserved.
+                  TrackAgent.ai © 2024, All rights reserved.
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>

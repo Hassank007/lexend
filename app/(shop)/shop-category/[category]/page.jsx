@@ -6,9 +6,9 @@ import ShopCategory from "@/components/shop/ShopCategory";
 import Breadcumb3 from "@/components/shop/Breadcumb3";
 export const metadata = {
   title:
-    "Shop Category || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop Category || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ShopCategoryPage({ params }) {
   const category = params.category.split("%20").join(" ");

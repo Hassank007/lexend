@@ -10,11 +10,12 @@ import Blog from "@/components/homes/home-3/Blog";
 import Cta from "@/components/homes/home-3/Cta";
 import Footer2 from "@/components/footers/Footer2";
 import Brands3 from "@/components/common/Brands2";
+import Faq from "@/components/homes/home-2/Faq";
 export const metadata = {
   title:
-    "Home 3 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 3 || TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "TrackAgent.ai - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage3() {
   return (
@@ -51,7 +52,11 @@ export default function HomePage3() {
           </div>
           <Blog />
           <Cta />
+       
         </div>
+        <div className="pt-8">
+           <Faq/>
+           </div>
         <Footer2 />
       </div>
     </>
